@@ -29,7 +29,7 @@ Allows users of various platforms to access node data from a URL.
 - git remote add origin https://github.com/corviato1/web3node.git
 - npm install styled-components
 - git status
-- 
+- git push origin main
 - 
 - 
 - 
