@@ -21,7 +21,12 @@ const OutputContainer = styled.div`
   white-space: pre-wrap;
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
+  overflow-y: auto;   /* Add scroll if content overflows */
+  background-color: #2c001e; /* Ensure the background color is explicitly set */
+  height: 100%;  /* Make sure the height is 100% of the available space */
+  padding-bottom: 10px;  /* Optional: Adjust if you need padding */
 `;
+
 
 const PromptContainer = styled.div`
   display: flex;

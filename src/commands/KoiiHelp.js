@@ -1,9 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
-// Create a separate component for the koii help output
+// Styled component for the preformatted text
+const PreformattedText = styled.pre`
+  white-space: pre-wrap;   /* This allows the text to wrap */
+  word-wrap: break-word;   /* Breaks long words that would otherwise overflow */
+  color: #ffffff;          /* Set text color to white for visibility */
+  font-family: 'Courier New', Courier, monospace; /* Use monospaced font */
+`;
+
 const KoiiHelp = React.memo(() => {
   return (
-    <pre>
+    <PreformattedText>
       {`
 koii-cli 1.16.2 (src:devbuild; feat:2325450753)
 Blockchain, Rebuilt for Scale
@@ -114,8 +122,8 @@ SUBCOMMANDS:
     withdraw-from-nonce-account          Withdraw KOII from the nonce account
     withdraw-from-vote-account           Withdraw roe from a vote account into a specified account
     withdraw-stake                       Withdraw the unstaked KOII from the stake account
-    `}
-    </pre>
+      `}
+    </PreformattedText>
   );
 });
 
