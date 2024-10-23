@@ -10,7 +10,7 @@ const TerminalContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* height: 100vh;
+  height: 100vh;
   min-height: 100vh;
   min-width: 100vw; 
   padding: 10px;
@@ -26,9 +26,8 @@ const OutputContainer = styled.div`
   font-family: 'Courier New', Courier, monospace;
   overflow-y: auto;   /* Add scroll if content overflows */
   background-color: #2c001e; 
-  width: 100%;
-  height: 100%;
-  padding-bottom: 10px;
+  height: 100%;  /* Make sure the height is 100% of the available space */
+  padding-bottom: 10px;  /* Optional: Adjust if you need padding */
 `;
 
 
