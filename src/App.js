@@ -5,15 +5,18 @@ import KoiiEpoch from './commands/KoiiEpoch';
 import KoiiBlockHeight from './commands/KoiiBlockHeight';
 import KoiiValidators from './commands/KoiiValidators';
 
-// Styled Components for the terminal and input (remains unchanged)
+
 const TerminalContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw; 
   padding: 10px;
   box-sizing: border-box;
   background-color: #2c001e;
+  overflow: hidden;
 `;
 
 const OutputContainer = styled.div`
