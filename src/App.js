@@ -10,7 +10,7 @@ const TerminalContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100vh;
+  /* height: 100vh;
   min-height: 100vh;
   min-width: 100vw; 
   padding: 10px;
