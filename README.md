@@ -25,5 +25,5 @@ Allows users of various platforms to access node data from a URL.
 - npm test
 - npm run build
 - gh repo create web3node --public
-- 
+- git init
 - 
