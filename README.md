@@ -14,6 +14,7 @@ Allows users of various platforms to access node data from a URL.
 
 
 ## Issue List
+- make mobile friendly
 - add text "koii commands" semi transparent gray
 - add node@koii:/home$<last input command> at top of screen unless cleared
 - connect koii epoch
