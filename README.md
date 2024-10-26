@@ -13,6 +13,22 @@ Allows users of various platforms to access node data from a URL.
 - Koii
 
 
+## Issue List
+- add text "koii commands" semi transparent gray
+- add node@koii:/home$<last input command> at top of screen unless cleared
+- connect koii epoch
+- connect koii block height
+- connect koii validators
+- bold text koii help output for commands that this app uses
+- add 
+- add db to collect input
+- add available inputs, then connect, then write needed rules
+-- airdrop
+-- balance
+-- account
+-- address
+-- balance
+
 
 
 ##### Random command notes
